@@ -1,0 +1,287 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'ember-cli@1.13.0' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'ember-cli@1.13.0', null ]
+6 verbose cache add name=undefined spec="ember-cli@1.13.0" args=["ember-cli@1.13.0",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'ember-cli@1.13.0',
+7 verbose parsed url   path: 'ember-cli@1.13.0',
+7 verbose parsed url   href: 'ember-cli@1.13.0' }
+8 verbose cache add name="ember-cli" spec="1.13.0" args=["ember-cli","1.13.0"]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '1.13.0',
+9 verbose parsed url   path: '1.13.0',
+9 verbose parsed url   href: '1.13.0' }
+10 verbose addNamed [ 'ember-cli', '1.13.0' ]
+11 verbose addNamed [ '1.13.0', '1.13.0' ]
+12 silly lockFile e9342355-ember-cli-1-13-0 ember-cli@1.13.0
+13 verbose lock ember-cli@1.13.0 /home/noel/.npm/e9342355-ember-cli-1-13-0.lock
+14 verbose request where is /ember-cli
+15 verbose request registry https://registry.npmjs.org/
+16 verbose request id 74b216f40879b021
+17 verbose url raw /ember-cli
+18 verbose url resolving [ 'https://registry.npmjs.org/', './ember-cli' ]
+19 verbose url resolved https://registry.npmjs.org/ember-cli
+20 verbose request where is https://registry.npmjs.org/ember-cli
+21 info trying registry request attempt 1 at 14:58:59
+22 http GET https://registry.npmjs.org/ember-cli
+23 http 200 https://registry.npmjs.org/ember-cli
+24 silly registry.get cb [ 200,
+24 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     etag: '"5K73YO8OW83BRJ3JZS5VEJDH1"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=60',
+24 silly registry.get     'content-length': '236725',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     date: 'Tue, 27 Oct 2015 21:59:00 GMT',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '1',
+24 silly registry.get     connection: 'keep-alive',
+24 silly registry.get     'x-served-by': 'cache-sjc3124-SJC',
+24 silly registry.get     'x-cache': 'HIT',
+24 silly registry.get     'x-cache-hits': '1',
+24 silly registry.get     'x-timer': 'S1445983140.363054,VS0,VE1',
+24 silly registry.get     vary: 'Accept' } ]
+25 silly lockFile 9b32b888-g-ember-cli-ember-cli-1-13-0-tgz https://registry.npmjs.org/ember-cli/-/ember-cli-1.13.0.tgz
+26 verbose lock https://registry.npmjs.org/ember-cli/-/ember-cli-1.13.0.tgz /home/noel/.npm/9b32b888-g-ember-cli-ember-cli-1-13-0-tgz.lock
+27 verbose addRemoteTarball [ 'https://registry.npmjs.org/ember-cli/-/ember-cli-1.13.0.tgz',
+27 verbose addRemoteTarball   'c12a353119279459ad4da0d0d563ecfc8f6517e1' ]
+28 info retry fetch attempt 1 at 14:59:01
+29 verbose fetch to= /tmp/npm-13169-tkpDFnma/registry.npmjs.org/ember-cli/-/ember-cli-1.13.0.tgz
+30 http GET https://registry.npmjs.org/ember-cli/-/ember-cli-1.13.0.tgz
+31 http 200 https://registry.npmjs.org/ember-cli/-/ember-cli-1.13.0.tgz
+32 silly lockFile 9b32b888-g-ember-cli-ember-cli-1-13-0-tgz https://registry.npmjs.org/ember-cli/-/ember-cli-1.13.0.tgz
+33 silly lockFile 9b32b888-g-ember-cli-ember-cli-1-13-0-tgz https://registry.npmjs.org/ember-cli/-/ember-cli-1.13.0.tgz
+34 silly lockFile e9342355-ember-cli-1-13-0 ember-cli@1.13.0
+35 silly lockFile e9342355-ember-cli-1-13-0 ember-cli@1.13.0
+36 silly resolved [ { name: 'ember-cli',
+36 silly resolved     version: '1.13.0',
+36 silly resolved     main: 'lib/cli/index.js',
+36 silly resolved     description: 'Command line tool for developing ambitious ember.js apps',
+36 silly resolved     trackingCode: 'UA-49225444-1',
+36 silly resolved     bin: { ember: './bin/ember' },
+36 silly resolved     scripts:
+36 silly resolved      { docs: 'node bin/generate-docs.js',
+36 silly resolved        test: 'node tests/runner',
+36 silly resolved        'test:debug': 'node debug tests/runner',
+36 silly resolved        'test-all': 'node tests/runner all',
+36 silly resolved        'test-all:debug': 'node debug tests/runner all',
+36 silly resolved        'test-all:cover': 'istanbul cover tests/runner.js all' },
+36 silly resolved     repository:
+36 silly resolved      { type: 'git',
+36 silly resolved        url: 'https://github.com/ember-cli/ember-cli.git' },
+36 silly resolved     engines: { node: '>= 0.10.0' },
+36 silly resolved     keywords:
+36 silly resolved      [ 'ember.js',
+36 silly resolved        'ember',
+36 silly resolved        'cli',
+36 silly resolved        'app',
+36 silly resolved        'kit',
+36 silly resolved        'app-kit',
+36 silly resolved        'ember-app-kit' ],
+36 silly resolved     author: { name: 'Stefan Penner, Robert Jackson and ember-cli contributors' },
+36 silly resolved     license: 'MIT',
+36 silly resolved     bugs: { url: 'https://github.com/ember-cli/ember-cli/issues' },
+36 silly resolved     dependencies:
+36 silly resolved      { abbrev: '^1.0.5',
+36 silly resolved        bower: '^1.3.12',
+36 silly resolved        'bower-config': '0.6.1',
+36 silly resolved        broccoli: '0.16.3',
+36 silly resolved        'broccoli-caching-writer': '0.5.5',
+36 silly resolved        'broccoli-clean-css': '0.2.0',
+36 silly resolved        'broccoli-es3-safe-recast': '^2.0.0',
+36 silly resolved        'broccoli-es6modules': '^0.6.0',
+36 silly resolved        'broccoli-filter': '0.1.14',
+36 silly resolved        'broccoli-funnel': '0.2.3',
+36 silly resolved        'broccoli-kitchen-sink-helpers': '0.2.7',
+36 silly resolved        'broccoli-merge-trees': '0.2.1',
+36 silly resolved        'broccoli-sane-watcher': '^1.1.1',
+36 silly resolved        'broccoli-sourcemap-concat': '^0.4.3',
+36 silly resolved        'broccoli-unwatched-tree': '0.1.1',
+36 silly resolved        'broccoli-writer': '0.1.1',
+36 silly resolved        chalk: '1.1.0',
+36 silly resolved        'clean-base-url': '^1.0.0',
+36 silly resolved        compression: '^1.4.4',
+36 silly resolved        'concat-stream': '^1.4.7',
+36 silly resolved        configstore: '0.3.2',
+36 silly resolved        'core-object': '0.0.2',
+36 silly resolved        cpr: '^0.4.1',
+36 silly resolved        debug: '^2.1.3',
+36 silly resolved        diff: '^1.3.1',
+36 silly resolved        'ember-cli-copy-dereference': '^1.0.0',
+36 silly resolved        'ember-cli-preprocess-registry': '^1.0.1',
+36 silly resolved        'ember-router-generator': '^1.0.0',
+36 silly resolved        'escape-string-regexp': '^1.0.3',
+36 silly resolved        'exists-sync': '0.0.3',
+36 silly resolved        exit: '^0.1.2',
+36 silly resolved        express: '^4.12.3',
+36 silly resolved        findup: '0.1.5',
+36 silly resolved        'findup-sync': '^0.2.1',
+36 silly resolved        'fs-extra': '0.21.0',
+36 silly resolved        'git-repo-info': '^1.0.4',
+36 silly resolved        github: '^0.2.3',
+36 silly resolved        glob: '5.0.13',
+36 silly resolved        'http-proxy': '^1.9.0',
+36 silly resolved        inflection: '^1.7.0',
+36 silly resolved        inquirer: '0.5.1',
+36 silly resolved        'is-git-url': '^0.2.0',
+36 silly resolved        isbinaryfile: '^2.0.3',
+36 silly resolved        'js-string-escape': '^1.0.0',
+36 silly resolved        leek: '0.0.18',
+36 silly resolved        lodash: '^3.6.0',
+36 silly resolved        'markdown-it': '4.3.0',
+36 silly resolved        'markdown-it-terminal': '0.0.2',
+36 silly resolved        minimatch: '^2.0.4',
+36 silly resolved        morgan: '^1.5.2',
+36 silly resolved        'node-modules-path': '^1.0.0',
+36 silly resolved        'node-uuid': '^1.4.3',
+36 silly resolved        nopt: '^3.0.1',
+36 silly resolved        npm: '^2.7.6',
+36 silly resolved        'pleasant-progress': '^1.0.2',
+36 silly resolved        'process-relative-require': '^1.0.0',
+36 silly resolved        'promise-map-series': '^0.2.1',
+36 silly resolved        'proxy-middleware': '0.13.0',
+36 silly resolved        'quick-temp': '0.1.2',
+36 silly resolved        readline2: '0.1.1',
+36 silly resolved        resolve: '^1.1.6',
+36 silly resolved        rimraf: '2.3.2',
+36 silly resolved        rsvp: '^3.0.17',
+36 silly resolved        sane: '^1.1.1',
+36 silly resolved        semver: '^4.3.3',
+36 silly resolved        'silent-error': '^1.0.0',
+36 silly resolved        'strip-ansi': '^2.0.1',
+36 silly resolved        'symlink-or-copy': '^1.0.1',
+36 silly resolved        temp: '0.8.1',
+36 silly resolved        testem: '^0.8.3',
+36 silly resolved        through: '^2.3.6',
+36 silly resolved        'tiny-lr': '0.1.5',
+36 silly resolved        'walk-sync': '0.1.3',
+36 silly resolved        yam: '0.0.18' },
+36 silly resolved     devDependencies:
+36 silly resolved      { chai: '^2.1.2',
+36 silly resolved        'chai-as-promised': '^4.3.0',
+36 silly resolved        'codeclimate-test-reporter': '0.0.4',
+36 silly resolved        coveralls: '^2.11.2',
+36 silly resolved        istanbul: '^0.3.13',
+36 silly resolved        mocha: '^2.2.1',
+36 silly resolved        'mocha-jshint': '1.0.0',
+36 silly resolved        'mocha-only-detector': '0.0.2',
+36 silly resolved        multiline: '^1.0.2',
+36 silly resolved        nock: '^1.2.1',
+36 silly resolved        'node-require-timings': '1.0.0',
+36 silly resolved        supertest: '0.15.0',
+36 silly resolved        'tmp-sync': '^1.0.1',
+36 silly resolved        yuidocjs: '0.6.0' },
+36 silly resolved     homepage: 'https://github.com/ember-cli/ember-cli',
+36 silly resolved     bundleDependencies:
+36 silly resolved      [ 'bower',
+36 silly resolved        'bower-config',
+36 silly resolved        'broccoli',
+36 silly resolved        'broccoli-clean-css',
+36 silly resolved        'chalk',
+36 silly resolved        'concat-stream',
+36 silly resolved        'configstore',
+36 silly resolved        'diff',
+36 silly resolved        'exists-sync',
+36 silly resolved        'express',
+36 silly resolved        'findup',
+36 silly resolved        'fs-extra',
+36 silly resolved        'git-repo-info',
+36 silly resolved        'glob',
+36 silly resolved        'inflection',
+36 silly resolved        'inquirer',
+36 silly resolved        'leek',
+36 silly resolved        'lodash',
+36 silly resolved        'minimatch',
+36 silly resolved        'morgan',
+36 silly resolved        'node-uuid',
+36 silly resolved        'nopt',
+36 silly resolved        'npm',
+36 silly resolved        'proxy-middleware',
+36 silly resolved        'quick-temp',
+36 silly resolved        'readline2',
+36 silly resolved        'resolve',
+36 silly resolved        'through',
+36 silly resolved        'tiny-lr' ],
+36 silly resolved     _id: 'ember-cli@1.13.0',
+36 silly resolved     _shasum: 'c12a353119279459ad4da0d0d563ecfc8f6517e1',
+36 silly resolved     _resolved: 'https://registry.npmjs.org/ember-cli/-/ember-cli-1.13.0.tgz',
+36 silly resolved     _from: 'ember-cli@1.13.0',
+36 silly resolved     _npmVersion: '2.5.1',
+36 silly resolved     _nodeVersion: '0.12.0',
+36 silly resolved     _npmUser: { name: 'trabus', email: 'trabus@gmail.com' },
+36 silly resolved     maintainers:
+36 silly resolved      [ [Object],
+36 silly resolved        [Object],
+36 silly resolved        [Object],
+36 silly resolved        [Object],
+36 silly resolved        [Object],
+36 silly resolved        [Object],
+36 silly resolved        [Object],
+36 silly resolved        [Object],
+36 silly resolved        [Object],
+36 silly resolved        [Object] ],
+36 silly resolved     dist:
+36 silly resolved      { shasum: 'c12a353119279459ad4da0d0d563ecfc8f6517e1',
+36 silly resolved        tarball: 'http://registry.npmjs.org/ember-cli/-/ember-cli-1.13.0.tgz' },
+36 silly resolved     directories: {} } ]
+37 info install ember-cli@1.13.0 into /usr/lib
+38 info installOne ember-cli@1.13.0
+39 verbose lib/node_modules/ember-cli unbuild
+40 verbose tar unpack /home/noel/.npm/ember-cli/1.13.0/package.tgz
+41 silly lockFile 90b17a6b-r-usr-lib-node-modules-ember-cli tar:///usr/lib/node_modules/ember-cli
+42 verbose lock tar:///usr/lib/node_modules/ember-cli /home/noel/.npm/90b17a6b-r-usr-lib-node-modules-ember-cli.lock
+43 silly lockFile 0266d6c3-npm-ember-cli-1-13-0-package-tgz tar:///home/noel/.npm/ember-cli/1.13.0/package.tgz
+44 verbose lock tar:///home/noel/.npm/ember-cli/1.13.0/package.tgz /home/noel/.npm/0266d6c3-npm-ember-cli-1-13-0-package-tgz.lock
+45 silly gunzTarPerm modes [ '775', '664' ]
+46 error Error: EACCES, mkdir '/usr/lib/node_modules/ember-cli'
+46 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/ember-cli']
+46 error   errno: 3,
+46 error   code: 'EACCES',
+46 error   path: '/usr/lib/node_modules/ember-cli',
+46 error   fstream_type: 'Directory',
+46 error   fstream_path: '/usr/lib/node_modules/ember-cli',
+46 error   fstream_class: 'DirWriter',
+46 error   fstream_stack:
+46 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+46 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+46 error      'Object.oncomplete (fs.js:108:15)' ] }
+47 error Please try running this command again as root/Administrator.
+48 error System Linux 3.19.0-30-generic
+49 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "ember-cli@1.13.0"
+50 error cwd /home/noel/projects/ember.th
+51 error node -v v0.10.40
+52 error npm -v 1.4.28
+53 error path /usr/lib/node_modules/ember-cli
+54 error fstream_path /usr/lib/node_modules/ember-cli
+55 error fstream_type Directory
+56 error fstream_class DirWriter
+57 error code EACCES
+58 error errno 3
+59 error stack Error: EACCES, mkdir '/usr/lib/node_modules/ember-cli'
+60 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+60 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+60 error fstream_stack Object.oncomplete (fs.js:108:15)
+61 verbose exit [ 3, true ]

@@ -1,0 +1,23 @@
+<h1>Contact</h1>
+<div class='row'>
+	<div class='col-md-6'>
+	<p>Want to donate blood, or just <em>hang</em> out?</p>
+	<ul>
+		<li>{{#link-to 'phone'}}Phone{{/link-to}}</li>
+		<li>{{#link-to 'email'}}Email{{/link-to}}</li>
+	</ul>
+
+	{{#if messageSent}}
+		<p>Awww, thanks soooooooo much.  Geez, you're just swell. Here's your confirmation number: {{confirmationNumber}}</p>
+	{{else}}
+		<p>Or, <a href='#' {{action 'sendMessage'}}>Click here</a> to send a secret message.</p>
+	{{/if}}
+	
+	</div>
+	<div class='col-md-6'>
+		{{outlet}}
+	</div>
+</div>
+
+
+
